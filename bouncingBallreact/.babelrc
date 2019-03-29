@@ -1,0 +1,38 @@
+{
+    "env": {
+        "testing": {
+            "presets": [
+                "@babel/preset-react",
+                [
+                    "@babel/preset-env",
+                    {
+                        "modules": "cjs"
+                    }
+                ]
+            ]
+        },
+        "production": {
+            "presets": [
+                "@babel/preset-react",
+                [
+                    "@babel/preset-env",
+                    {
+                        "modules": false
+                    }
+                ]
+            ]
+        },
+        
+        "development": {
+            "presets": [
+                "@babel/preset-react",
+                [
+                    "@babel/preset-env",
+                    {
+                        "modules": false
+                    }
+                ]
+            ]
+        }
+    }
+}

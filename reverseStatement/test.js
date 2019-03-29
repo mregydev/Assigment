@@ -2,7 +2,7 @@ const expect=require('chai').expect
 
 const reverseStatement=require('./index')
 
-describe('reverse statement test cases',()=>{
+describe('reverse  statement test cases',()=>{
 
     it('should return null in case passed paramter is null',(done)=>{
 
