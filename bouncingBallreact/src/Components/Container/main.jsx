@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Welcome from '../Functional/Welcome.jsx'
-
 class MainComponent extends React.Component {
 
     constructor() {
