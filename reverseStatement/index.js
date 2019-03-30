@@ -16,4 +16,4 @@ function reverseStatement(word) {
     return words.reduce((acc, el, index) => el + (spaces[index - 1] || '') + acc, '')
 }
 
-console.log(reverseStatement("rh swa"))
+module.exports = reverseStatement
