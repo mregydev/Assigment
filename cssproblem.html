@@ -1,0 +1,46 @@
+
+
+
+<div class="child"></div>
+
+
+<div class='parent'>
+    
+</div>
+<style>
+    .parent {
+        background: blue;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        padding: 20px
+    }
+
+
+
+    .child:hover 
+    {
+        background: red;
+        cursor: pointer;
+    }
+
+    .child:hover + .parent
+    {
+        background: yellow
+    }
+
+    
+    .parent:hover {
+        background: green
+    }
+
+    .child {
+        background:skyblue;
+        border-radius: 50%;
+        width: 76px;
+        height: 76px;
+        position: fixed;
+        top: 40px;
+        left: 40px;
+    }
+</style>
